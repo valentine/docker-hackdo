@@ -8,17 +8,17 @@ A Docker image for [HackDo](https://github.com/hackerspacesg/hackdo/).
 
 Pull [the image](https://hub.docker.com/r/valentine/rclone/) from Docker Hub:
 
-    docker pull valentine/hackdo:latest
+    docker pull hackerspacesg/hackdo:latest
 
 Create a container using `docker run`, specifying the host and container port respectively in the `-p=` parameter:
 
     docker run -d \
       -p=58180:80 \
-      valentine/hackdo:latest
+      hackerspacesg/hackdo:latest
 
 The above, in one line:
 
-    docker run -d -p=58180:80 valentine/hackdo:latest
+    docker run -d -p=58180:80 hackerspacesg/hackdo:latest
 
 ## Usage
 
